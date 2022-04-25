@@ -37,4 +37,19 @@
         android:name="ru.mirea.lebedeva.mireaproject.MusicFragment"
         android:label="fragment_music"
         tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/sensors"
+        android:name="ru.mirea.lebedeva.mireaproject.Sensors"
+        android:label="fragment_sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/photo"
+        android:name="ru.mirea.lebedeva.mireaproject.Photo"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/audioRecord"
+        android:name="ru.mirea.lebedeva.mireaproject.AudioRecord"
+        android:label="fragment_audio_record"
+        tools:layout="@layout/fragment_audio_record" />
 </navigation>

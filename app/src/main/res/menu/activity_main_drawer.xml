@@ -28,5 +28,17 @@
             android:id="@+id/musicFragment"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_music" />
+        <item
+            android:id="@+id/sensors"
+            android:icon="@android:drawable/btn_default_small"
+            android:title="@string/menu_sensors" />
+        <item
+            android:id="@+id/photo"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_photo" />
+        <item
+            android:id="@+id/audioRecord"
+            android:icon="@android:drawable/btn_radio"
+            android:title="@string/menu_audio" />
     </group>
 </menu>

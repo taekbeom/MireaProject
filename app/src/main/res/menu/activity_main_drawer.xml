@@ -40,5 +40,13 @@
             android:id="@+id/audioRecord"
             android:icon="@android:drawable/btn_radio"
             android:title="@string/menu_audio" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/menu_settings"/>
+        <item
+            android:id="@+id/storyFragment"
+            android:icon="@android:drawable/btn_dropdown"
+            android:title="@string/menu_story"/>
     </group>
 </menu>

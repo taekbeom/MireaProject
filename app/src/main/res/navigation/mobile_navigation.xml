@@ -52,4 +52,19 @@
         android:name="ru.mirea.lebedeva.mireaproject.AudioRecord"
         android:label="fragment_audio_record"
         tools:layout="@layout/fragment_audio_record" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="ru.mirea.lebedeva.mireaproject.Settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="ru.mirea.lebedeva.mireaproject.ui.stories.StoryFragment"
+        android:label="fragment_story"
+        tools:layout="@layout/fragment_story" />
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="ru.mirea.lebedeva.mireaproject.ui.stories.StoryFragment"
+        android:label="fragment_stories_list"
+        tools:layout="@layout/fragment_stories_list" />
 </navigation>

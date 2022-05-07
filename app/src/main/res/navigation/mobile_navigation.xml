@@ -67,4 +67,9 @@
         android:name="ru.mirea.lebedeva.mireaproject.ui.stories.StoryFragment"
         android:label="fragment_stories_list"
         tools:layout="@layout/fragment_stories_list" />
+    <fragment
+        android:id="@+id/socketFragment"
+        android:name="ru.mirea.lebedeva.mireaproject.ui.auth.SocketFragment"
+        android:label="fragment_socket"
+        tools:layout="@layout/fragment_socket" />
 </navigation>

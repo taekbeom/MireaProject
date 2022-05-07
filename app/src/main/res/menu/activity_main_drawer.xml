@@ -48,5 +48,9 @@
             android:id="@+id/storyFragment"
             android:icon="@android:drawable/btn_dropdown"
             android:title="@string/menu_story"/>
+        <item
+            android:id="@+id/socketFragment"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/menu_socket"/>
     </group>
 </menu>

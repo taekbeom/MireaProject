@@ -6,10 +6,15 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/3dpractice/MireaProject/app/src/main/res/layout/fragment_calculator.xml" value="0.3030769230769231" />
         <entry key="..\:/Users/User/AndroidStudioProjects/3dpractice/MireaProject/app/src/main/res/layout/fragment_music.xml" value="0.16574074074074074" />
         <entry key="..\:/Users/User/AndroidStudioProjects/3dpractice/MireaProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.26258503401360545" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout-w1240dp/activity_auth.xml" value="0.309765625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout-w936dp/activity_auth.xml" value="0.275" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_account.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_auth.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_authuser.xml" value="0.2828125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_main.xml" value="0.278125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/app_bar_main.xml" value="0.278125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_account.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_audio_record.xml" value="0.3625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_browser.xml" value="0.12962962962962962" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_calculator.xml" value="0.36666666666666664" />
@@ -22,6 +27,9 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_stories_list.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_story.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_story_list.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/post_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/post_list_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/post_pattern.xml" value="0.15052083333333333" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/story_list_item.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/story_pattern.xml" value="0.3625" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MireaProject/app/src/main/res/layout/story_write.xml" value="0.1984375" />

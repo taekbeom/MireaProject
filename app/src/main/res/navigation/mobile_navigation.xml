@@ -61,15 +61,15 @@
         android:id="@+id/storyFragment"
         android:name="ru.mirea.lebedeva.mireaproject.ui.stories.StoryFragment"
         android:label="fragment_story"
-        tools:layout="@layout/fragment_story" />
-    <fragment
-        android:id="@+id/storyFragment"
-        android:name="ru.mirea.lebedeva.mireaproject.ui.stories.StoryFragment"
-        android:label="fragment_stories_list"
-        tools:layout="@layout/fragment_stories_list" />
+        tools:layout="@layout/fragment_stories" />
     <fragment
         android:id="@+id/socketFragment"
         android:name="ru.mirea.lebedeva.mireaproject.ui.auth.SocketFragment"
         android:label="fragment_socket"
         tools:layout="@layout/fragment_socket" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="ru.mirea.lebedeva.mireaproject.ui.accountposts.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
 </navigation>

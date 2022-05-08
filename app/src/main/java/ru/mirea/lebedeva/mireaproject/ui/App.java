@@ -1,8 +1,10 @@
-package ru.mirea.lebedeva.mireaproject.ui.stories;
+package ru.mirea.lebedeva.mireaproject.ui;
 
 import android.app.Application;
 
 import androidx.room.Room;
+
+import ru.mirea.lebedeva.mireaproject.ui.stories.AppDatabase;
 
 public class App extends Application {
     public static App instance;

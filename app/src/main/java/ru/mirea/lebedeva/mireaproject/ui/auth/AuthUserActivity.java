@@ -26,6 +26,9 @@ public class AuthUserActivity extends AppCompatActivity implements View.OnClickL
     private EditText mPasswordField;
     private FirebaseAuth mAuth;
 
+    public static String nickname = "taek";
+    public String emailName;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,10 +74,18 @@ public class AuthUserActivity extends AppCompatActivity implements View.OnClickL
     private boolean validateForm() {
         boolean valid = true;
         String email = mEmailField.getText().toString();
+        emailName = email;
         if (TextUtils.isEmpty(email)) {
             mEmailField.setError("Required.");
             valid = false;
         } else {
+            int i = 0;
+            nickname = "";
+            while (emailName.charAt(i) != '@'){
+                nickname += emailName.charAt(i);
+                i++;
+            }
+            System.out.println(nickname);
             mEmailField.setError(null);
         }
         String password = mPasswordField.getText().toString();
@@ -91,6 +102,7 @@ public class AuthUserActivity extends AppCompatActivity implements View.OnClickL
         if (!validateForm()) {
             return;
         }
+
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -109,6 +121,7 @@ public class AuthUserActivity extends AppCompatActivity implements View.OnClickL
         if (!validateForm()) {
             return;
         }
+
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override

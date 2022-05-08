@@ -52,5 +52,9 @@
             android:id="@+id/socketFragment"
             android:icon="@android:drawable/stat_notify_chat"
             android:title="@string/menu_socket"/>
+        <item
+            android:id="@+id/accountFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_post"/>
     </group>
 </menu>

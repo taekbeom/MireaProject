@@ -16,6 +16,7 @@ import android.widget.Button;
 import java.util.List;
 
 import ru.mirea.lebedeva.mireaproject.R;
+import ru.mirea.lebedeva.mireaproject.ui.App;
 
 public class StoryFragment extends Fragment {
 

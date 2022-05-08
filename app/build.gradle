@@ -5,6 +5,7 @@ plugins {
 
 android {
     compileSdk 32
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "ru.mirea.lebedeva.mireaproject"
@@ -32,6 +33,12 @@ android {
 }
 
 dependencies {
+    implementation 'com.yandex.android:mapkit:3.5.0'
+    implementation 'com.yandex.android:directions:3.5.0'
+    implementation 'com.yandex.android:places:3.5.0'
+    implementation 'com.yandex.android:search:3.5.0'
+    implementation 'com.yandex.android:transport:3.5.0'
+
     implementation 'com.google.firebase:firebase-auth:21.0.3'
     implementation 'androidx.annotation:annotation:1.2.0'
     def room_version = "2.2.5"

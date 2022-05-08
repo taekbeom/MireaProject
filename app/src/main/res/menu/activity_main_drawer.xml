@@ -56,5 +56,9 @@
             android:id="@+id/accountFragment"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_post"/>
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="menu_maps"/>
     </group>
 </menu>

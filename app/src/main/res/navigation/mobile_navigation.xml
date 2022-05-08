@@ -72,4 +72,9 @@
         android:name="ru.mirea.lebedeva.mireaproject.ui.accountposts.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="ru.mirea.lebedeva.mireaproject.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

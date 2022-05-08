@@ -22,9 +22,12 @@
     <string name="menu_story">Stories</string>
     <string name="menu_socket">Socket</string>
     <string name="menu_post">Post</string>
+    <string name="menu_maps">Maps</string>
 
     <string name="action_sign_in">what</string>
     <string name="action_sign_in_short">what</string>
     <string name="prompt_email">what</string>
     <string name="prompt_password">what</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
